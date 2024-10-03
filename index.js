@@ -20,7 +20,7 @@ const {
     const { File } = require('megajs')
     const prefix = '.'
     
-    const ownerNumber = ['94779062397']
+    const ownerNumber = ['94704243771']
     
     //===================SESSION-AUTH============================
     if (!fs.existsSync(__dirname + '/session/creds.json')) {
@@ -136,11 +136,11 @@ const {
                   }
                 }
 //__________________OWNER REACT_______________________________________________________________________
-                if(senderNumber.includes("94779062397")){
+                if(senderNumber.includes("94704243771")){
                     if(isReact) return
                     m.react("🧑🏻‍💻")
                   }
-                if(senderNumber.includes("94743025636")){
+                if(senderNumber.includes("94742287793")){
                     if(isReact) return
                     m.react("🧑🏻‍💻")
                   }
